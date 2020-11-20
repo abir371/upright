@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* navbar */
+.navbar-brand {
+
+    font-size: 2.25rem !important;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 21px;
+    padding-top: 35px;
+}
+
+/* parralax */
+.parallax {
+    min-height: 1500px;
+    background: transparent;
+}
+
+.navbar-expand-lg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    z-index: 11;
+    width: 310px;
+}
+
+.carry .fa,
+.fas {
+    font-size: 43px;
+    margin-right: 30px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.card {
+    border: none;
+
+}
+
+h2.upright:after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: #ccc;
+    width: 78%;
+    margin: 20px auto;
+
+}
+
+.media .fa,
+.fas {
+    font-size: 50px;
+}
+
+.dog:before {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #ccc;
+    width: 50%;
+    margin: 70px auto;
+}
+
+.button .fa,
+.fas {
+
+    font-size: 21px;
+    padding: 10px;
+}
+
+/* gl-img hover*/
+
+
+
+.img {
+    height: 350px;
+    width: 300px;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    box-shadow: 0 10px 10px rgba(51, 48, 48, 0.4);
+    background-color: #fff;
+    transition: .5s ease-out;
+}
+
+.img:hover:before {
+    opacity: 1;
+}
+
+.img:hover .text-img {
+    z-index: 3;
+    color: #fff;
+    opacity: 1;
+    padding: 24px;
+}
+
+.img:before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #000, transparent);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+    cursor: pointer;
+    border-bottom: 4px solid blue;
+}
+
+.img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.img .text-img {
+    transform: translatey(-20px);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    opacity: 0;
+
+
+}
+
+/* css */
+h2.css:after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: #ccc;
+    width: 78%;
+    margin: 20px auto;
+
+}
+
+/* contact */
+h2.contact:after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: #ccc;
+    width: 78%;
+    margin: 20px auto;
+
+}
+
+.nav-link.active {
+    color: #FFCA47 !important;
+}
+
